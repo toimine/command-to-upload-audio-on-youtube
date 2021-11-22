@@ -1,0 +1,1 @@
+ffmpeg -loop 1 -framerate 2 -i C:\Users\toimine\Pictures\1632983639121.jpg -i "D:\music\something from a flash game.mp3" -c:v libx264 -preset medium -tune stillimage -crf 18 -c:a libfdk_aac -b:a 192k -shortest -pix_fmt yuv420p -movflags +faststart D:\output.mp4
